@@ -9,27 +9,24 @@ export const metadata = {
 const AboutPage = () => {
   return (
     <section className="content">
-      <h2 className="section-title">About</h2>
-      <p>
-        {" "}
-        Next.js — это современный React-фреймворк, который позволяет создавать
-        быстрые, масштабируемые и SEO-дружественные приложения.
-      </p>
+      <h2 className="section-title">Фото</h2>
+      <p> Это фото Ильи с братом. Он во всем лучше Ильи.</p>
       {/* <img src="./dodge-400-200.jpg" alt="Dodge" /> */}
       <Image
-        src="/dodge-400-200.jpg"
+        src="/brother.png"
         alt="Dodge"
-        width="400"
-        height="200"
+        width="450"
+        height="270"
         priority
       ></Image>
       <br />
       <br />
+      <p> Это сам Илья.</p>
       <Image
-        src="https://webcademy.ru/blog/wp-content/uploads/2023/07/Travel-X-Cover-870x400.jpg"
+        src="https://sun9-20.userapi.com/s/v1/ig2/dK05_YroWtNkEKNe9E2FVJyopoMay7A94nkXoNScZqqpyJO-o525KMKXFRqU37iWAcvNh1vZzLcQwqJa1ITE061l.jpg?quality=96&as=32x33,48x49,72x73,108x110,160x163,240x244,360x366,480x488,540x549,640x651,720x732,1062x1080&from=bu&cs=1062x0"
         alt="Img"
-        width="435"
-        height="200"
+        width="450"
+        height="270"
         priority
       />
     </section>

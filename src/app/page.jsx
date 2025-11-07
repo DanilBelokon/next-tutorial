@@ -9,10 +9,9 @@ export const metadata = {
 export default function Home() {
   return (
     <section className="content">
-      <h1>Изучаем Next JS</h1>
+      <h1>Илья Белоконь - начинающий преподаватель</h1>
       <p>
-        Next.js — это современный React-фреймворк, который позволяет создавать
-        быстрые, масштабируемые и SEO-дружественные приложения.
+        Любит играть в игры и много есть. Очень вспыльчивый, но очень ранимый.
       </p>
       <Button></Button>
     </section>

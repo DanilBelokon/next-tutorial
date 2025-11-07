@@ -4,13 +4,13 @@ const Navigation = () => {
   return (
     <nav className="navigation">
       <Link href="/" className="nav-link">
-        Main
+        Главная
       </Link>
       <Link href="/about" className="nav-link">
-        About
+        Фото
       </Link>
       <Link href="/contacts" className="nav-link">
-        Contacts
+        Контакты
       </Link>
       <Link href="/users" className="nav-link">
         Users
